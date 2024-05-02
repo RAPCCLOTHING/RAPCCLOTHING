@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: h1;
+    font-weight: 100;
+    transition: 0.03s ease;
+}
+
+h3{
+    font-family: h1;
+    font-weight: 100;
+}
+
+h1{
+    font-family: h1;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    font-family: parrafo;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+.ubicacion h3 {
+    font-size: 18px;
+}
+
+.contacto h3 {
+    font-size: 18px;
+}
+
+.contacto p {
+    margin: 5px 0;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #feb900
+}
+
+#catalogo:hover{
+    font-size: 26px;
+    transition: 1s ease;
+    color: #a77a01
+}
+
+.product {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 40px;
+    width: calc(50% - 40px);
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover .product-image {
+    transform: scale(1.1);
+}
+
+.product h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .product {
+        width: 100%;
+        margin: 0 auto 20px;
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@font-face {
+    font-family: parrafo;
+    src: url(p.ttf);
+}
+
+@font-face {
+    font-family: h1;
+    src: url(h1.otf);
+}
+
+nav {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: h1;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a77a01;
+    font-size: 20px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    transition: 1s ease-out;
+}
