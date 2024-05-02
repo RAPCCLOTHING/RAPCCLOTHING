@@ -131,19 +131,8 @@ a{
 
     img {
         width: 100%;
-        height: auto;
+        max-height: 300px;
         max-width: 300px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    h1 {
-        font-size: 30px;
-    }
-
-    img{
-        width: 300px;
-        height: 300px;
     }
 }
 
@@ -194,5 +183,4 @@ nav ul li a:hover {
 img{
     width: 500px;
     height: 500px;
-    transition: 1s ease-out;
 }
